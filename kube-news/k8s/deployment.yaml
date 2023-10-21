@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: kubenews
-          image: alexms/kube-news:v2
+          image: alexms/kube-news:v1
           ports:
             - containerPort: 8080
           env:
@@ -73,6 +73,5 @@ spec:
   ports:
     - port: 80 #porta padrao de acesso a uma aplicacao web
       targetPort: 8080
-      nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
 

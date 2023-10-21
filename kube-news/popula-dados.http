@@ -1,5 +1,5 @@
 
-POST http://localhost:8080/api/post
+POST ad6d86a9bda764d14b81230ae1a84201-978182518.us-east-1.elb.amazonaws.com/api/post
 Content-Type: application/json
 
 {
